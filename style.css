@@ -458,7 +458,11 @@ section {
     height: 90%;
     position: relative;
   }
-  
+  .donate {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
+
   /* FOOTER SECTION */
   
   footer {
