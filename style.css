@@ -20,6 +20,7 @@ body {
     }
 }
 
+
 /*  General */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
@@ -326,7 +327,7 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .about-details-container {
@@ -509,11 +510,15 @@ section {
 
   /* FOOTER SECTION */
   
-  footer {
-    height: 26vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
+
+footer {
+    padding: 40px;
+    background-color: #333;
+    color: white;
     text-align: center;
-  }
+}
+
+footer a {
+    color: white;
+}
+
