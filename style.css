@@ -522,3 +522,32 @@ footer a {
     color: white;
 }
 
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .about-details-container, .details-container, .donation-item {
+        width: calc(50% - 20px);
+    }
+
+    .contact-info-container {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    #profile, #about, #experience, #projects, #contact, #donations {
+        padding: 20px;
+    }
+
+    .about-details-container, .details-container, .donation-item, .contact-info-container {
+        width: 100%;
+    }
+}
