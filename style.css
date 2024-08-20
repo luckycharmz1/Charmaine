@@ -452,16 +452,35 @@ section {
     height: 2.5rem;
   }
 
-  .dontation-icons {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-    position: relative;
-  }
-  .donate {
-    color: black;
-    border-color: rgb(163, 163, 163);
-  }
+  #donations {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7; /* Optional: change background color */
+}
+
+.donation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px;
+}
+
+.donation-item {
+    flex: 1;
+    max-width: 200px; /* Controls the size of each donation item */
+    text-align: center;
+}
+
+.donation-icon {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners to images */
+}
+
+.donation-item p {
+    margin-top: 10px;
+    font-size  
 
   /* FOOTER SECTION */
   
